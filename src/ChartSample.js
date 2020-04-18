@@ -48,8 +48,8 @@ function ChartSample() {
       return (
         <div
           style={{
-            width: '22em',
-            height: '22em'
+            width: '23em',
+            height: '19em'
           }}
         >
             <Chart data={data} series={series} axes={axes} tooltip dark />
