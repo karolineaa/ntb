@@ -53,6 +53,7 @@ function ChartSample() {
           }}
         >
             <Chart data={data} series={series} axes={axes} tooltip dark />
+
         </div>
       )
 }
