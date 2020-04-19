@@ -10,6 +10,9 @@
   color: white;
 }
 
+body {
+  background-color: #282c34; 
+}
 
 h1 {
   display: block;
@@ -119,6 +122,18 @@ hr.Style2 {
 }
 
 
+@media screen and (max-width: 600px) {
+  .Bildetekst {
+    font-size: 0.8em; ;
+  }
+}
+
+@media screen and (max-width: 800px) and (min-width: 600px) {
+  .Bildetekst {
+    font-size: 0.6em;
+  }
+}
+
 @media screen and (max-width: 800px) and (min-width: 600px) {
   .Chart {
     font-size: 0.6em;
@@ -126,9 +141,9 @@ hr.Style2 {
   }
 }
 
-@media screen and (max-width: 600px) {
-  .Bildetekst {
-    font-size: 0.8em; ;
+@media screen and (max-width: 800px) and (min-width: 600px) {
+  h1 {
+    font-size: 2.4em;
   }
 }
 

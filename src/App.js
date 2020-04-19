@@ -56,7 +56,7 @@ function App() {
 
         <p className="Bildetekst">Grafen viser antall søknader om dagpenger per uke fordelt på fylker, fra uke 11 til og med uke 16.
           Den sammenligner tallene fra hvert fylke. Siden Viken har flere innbyggere enn Oslo, har de flest antall søknader, 
-          men Oslo har det største prosentandelen per innbygger. 
+          men Oslo har det største per innbygger. Hold over grafen for eksakt tall for valgt uke og for å sammenligne fylkene. 
          </p>
         </section>
       </article>
