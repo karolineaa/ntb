@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 import nav from './nav.png';
 import ChartSample from './ChartSample';
+import {Collapse} from 'react-collapse';
+import Chart2 from './Chart2';
 
 function App() {
   return (
@@ -29,12 +31,16 @@ function App() {
 
       <section className="Chart">
         <ChartSample />
+
+      <p className="Bildetekst">Denne grafen viser antall søknader om dagpenger per uke, fra uke 1 til og med uke 20.
+      Den sammenligner tall fra 2020 med tall fra 2019. Blå er tall fra 2019, rød er tall fra 2020, og gul viser antall 
+      søknader som har kommet inn den siste uken. Hold over grafen for eksakt tall for valgt uke. </p>
       </section>
 
       </article>
       <footer>
          <br></br><br></br>
-         <hr></hr> 
+         <hr className="Style"></hr> 
          <p>© Karoline Ådnanes 2020 </p>
          <br></br><br></br>
       </footer>
