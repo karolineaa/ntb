@@ -45,7 +45,20 @@ function App() {
           søknader som har kommet inn den siste uken. Hold over grafen for eksakt tall for valgt uke. </p>
         </section>
 
+
+        <section className="container">
         <img src={korona} className="Korona" alt="korona illustrasjon" />
+          <div class="text-block">
+            <h4>Covid-19</h4>
+            <p>I løpet av påsken (onsdag 8. til mandag 13. april) er det registrert 208 nye sykefraværstilfeller der det er påvist eller mistanke om Covid-19. </p>
+            <p>Siden 8. mars er det registrert 35 900 slike sykefraværstilfeller.</p>
+
+            <p>17% av alle påbegynte sykefraværstilfeller siden samme dato har hatt Covid-19 som diagnose.</p>
+            <p>52% av alle påbegynte sykefraværstilfeller siden samme dato har hatt luftveisdiagnoser (inkl. Covid-19).</p>
+          </div>
+          
+        </section>
+
 
         <section className="Brodtekst">
         <h3>Søknader om dagpenger</h3>
