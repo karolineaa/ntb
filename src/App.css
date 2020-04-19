@@ -32,7 +32,11 @@ h2 {
   font-style: italic;
 }
 
-
+h3 {
+  font-size: 2em;
+  font-style: bold;
+  margin-top: 10%;
+}
 
 .Brodtekst {
   font-size: 0.6em;
@@ -40,6 +44,15 @@ h2 {
   margin-right: 25%;
   text-align: left;
   width: 50%; 
+}
+
+.Byline {
+  font-size: 0.4em;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: left;
+  width: 50%; 
+  font-style: italic;
 }
 
 .Chart {
@@ -66,11 +79,17 @@ footer {
   width: 100%;
 }
 
-hr.Style {
+hr.Style, hr.Style2 {
   border: 0;
   height: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+hr.Style2 {
+ margin-right: 25%;
+ margin-left: 25%;
+ width: 50%; 
 }
 
 @media screen and (max-width: 600px) {
@@ -92,12 +111,13 @@ hr.Style {
 }
 
 @media screen and (max-width: 600px) {
-  h1, h2, .Chart, .Brodtekst {
+  h1, h2, .Chart, .Brodtekst, .Byline, hr.Style2 {
     margin-left: 10%;
     margin-right: 10%;
     width: 80%;
   }
 }
+
 
 @media screen and (max-width: 800px) and (min-width: 600px) {
   .Chart {
