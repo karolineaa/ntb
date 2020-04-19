@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import nav from './nav.png';
+import korona from './korona.svg';
 import ChartSample from './ChartSample';
 import Chart2 from './Chart2';
 
@@ -43,6 +44,8 @@ function App() {
           Den sammenligner tall fra 2020 med tall fra 2019. Blå er tall fra 2019, rød er tall fra 2020, og gul viser antall 
           søknader som har kommet inn den siste uken. Hold over grafen for eksakt tall for valgt uke. </p>
         </section>
+
+        <img src={korona} className="Korona" alt="korona illustrasjon" />
 
         <section className="Brodtekst">
         <h3>Søknader om dagpenger</h3>
