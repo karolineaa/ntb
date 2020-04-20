@@ -2,8 +2,8 @@ import React from 'react';
 import './App.css';
 import nav from './nav.png';
 import korona from './korona.svg';
-import ChartSample from './ChartSample';
-import Chart2 from './Chart2';
+import Statistikk from './Statistikk';
+import Statistikk2 from './Statistikk2';
 
 function App() {
   return (
@@ -38,7 +38,7 @@ function App() {
         </section>
 
         <section className="Chart">
-          <ChartSample />
+          <Statistikk />
 
         <p className="Bildetekst">Grafen viser antall søknader om dagpenger per uke, fra uke 1 til og med uke 20.
           Den sammenligner tall fra 2020 med tall fra 2019. Blå er tall fra 2019, rød er tall fra 2020, og gul viser antall 
@@ -46,15 +46,17 @@ function App() {
         </section>
 
 
-        <section className="container">
+        <section className="Container">
         <img src={korona} className="Korona" alt="korona illustrasjon" />
-          <div class="text-block">
+          <div class="Text-block">
             <h4>Covid-19</h4>
-            <p>I løpet av påsken (onsdag 8. til mandag 13. april) er det registrert 208 nye sykefraværstilfeller der det er påvist eller mistanke om Covid-19. </p>
-            <p>Siden 8. mars er det registrert 35 900 slike sykefraværstilfeller.</p>
-
-            <p>17% av alle påbegynte sykefraværstilfeller siden samme dato har hatt Covid-19 som diagnose.</p>
-            <p>52% av alle påbegynte sykefraværstilfeller siden samme dato har hatt luftveisdiagnoser (inkl. Covid-19).</p>
+            <p>I løpet av påsken (onsdag 8. til <br></br>
+               mandag 13. april) er det registrert<br></br> 
+               208 nye sykefraværstilfeller der  det<br></br>
+               er påvist eller mistanke om Covid-19.<br></br>
+               Siden 8. mars er det registrert <br></br>
+               35 900 slike sykefraværstilfeller.</p>
+            <br></br>
           </div>
           
         </section>
@@ -68,11 +70,10 @@ function App() {
         </section>
 
         <section className="Chart">
-          <Chart2/>
+          <Statistikk2/>
 
         <p className="Bildetekst">Grafen viser antall søknader om dagpenger per uke fordelt på fylker, fra uke 11 til og med uke 16.
-          Den sammenligner tallene fra hvert fylke. Siden Viken har flere innbyggere enn Oslo, har de flest antall søknader, 
-          men Oslo har det største per innbygger. Hold over grafen for eksakt tall for valgt uke og for å sammenligne fylkene. 
+          Den sammenligner tallene fra hvert fylke. Hold over grafen for eksakt tall for valgt uke og for å sammenligne fylkene. 
          </p>
         </section>
       </article>
